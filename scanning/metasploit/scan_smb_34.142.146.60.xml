@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Thu Nov  6 21:04:41 2025 as: /usr/lib/nmap/nmap -&#45;privileged -Pn -p445 -sV -&#45;script=smb-os-discovery,smb-protocols -oA scan_smb_34.142.146.60 34.142.146.60 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -Pn -p445 -sV -&#45;script=smb-os-discovery,smb-protocols -oA scan_smb_34.142.146.60 34.142.146.60" start="1762437881" startstr="Thu Nov  6 21:04:41 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Parallel DNS resolution of 1 host." time="1762437881" percent="0.00"/>
+<host starttime="1762437881" endtime="1762437883"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="34.142.146.60" addrtype="ipv4"/>
+<hostnames>
+<hostname name="60.146.142.34.bc.googleusercontent.com" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+</host>
+<runstats><finished time="1762437883" timestr="Thu Nov  6 21:04:43 2025" summary="Nmap done at Thu Nov  6 21:04:43 2025; 1 IP address (1 host up) scanned in 2.34 seconds" elapsed="2.34" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

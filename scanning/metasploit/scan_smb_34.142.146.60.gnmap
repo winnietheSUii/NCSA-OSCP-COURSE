@@ -1,0 +1,4 @@
+# Nmap 7.95 scan initiated Thu Nov  6 21:04:41 2025 as: /usr/lib/nmap/nmap --privileged -Pn -p445 -sV --script=smb-os-discovery,smb-protocols -oA scan_smb_34.142.146.60 34.142.146.60
+Host: 34.142.146.60 (60.146.142.34.bc.googleusercontent.com)	Status: Up
+Host: 34.142.146.60 (60.146.142.34.bc.googleusercontent.com)	Ports: 445/filtered/tcp//microsoft-ds///
+# Nmap done at Thu Nov  6 21:04:43 2025 -- 1 IP address (1 host up) scanned in 2.34 seconds
